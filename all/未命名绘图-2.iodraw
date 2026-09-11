@@ -1,11 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="5LgfkKr764bIVyxs2fOt">
-    <mxGraphModel dx="2904" dy="2220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1182" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="o9fSKM3bV65_Al8GUseu-1" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1620" y="996" width="360" height="224" as="geometry" />
+          <mxGeometry x="1520" y="430" width="360" height="224" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-2" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1520" y="47.5" width="350" height="352.5" as="geometry" />
@@ -95,16 +95,16 @@
           <mxGeometry x="1590" y="330" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-31" value="35. \(|R_{min} - D/2| \le \epsilon_{metric}\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1684" y="1021" width="234" height="49" as="geometry" />
+          <mxGeometry x="1584" y="455" width="234" height="49" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-32" value="36. 覆盖结论 \(\leftarrow\) “存在&#xa;直径为 \(D\) 的覆盖圆”" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1640.5" y="1088" width="149.5" height="42" as="geometry" />
+          <mxGeometry x="1540.5" y="522" width="149.5" height="42" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-33" value="38. 覆盖结论 \(\leftarrow\) “直径为 \(D\) 的圆不能覆盖”" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1809" y="1088" width="149.5" height="42" as="geometry" />
+          <mxGeometry x="1709" y="522" width="149.5" height="42" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-34" value="40. 将 \(V, C^*, D, R_{min}\) 映射&#xa;回原始米制坐标并返回" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1711" y="1150" width="180" height="50" as="geometry" />
+          <mxGeometry x="1611" y="584" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-35" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1779.5" y="1370" width="55" height="34" as="geometry" />
@@ -324,7 +324,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-67" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.49;entryY=-0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-31" target="o9fSKM3bV65_Al8GUseu-32">
           <mxGeometry x="0.1742" y="1" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1710" y="1070" />
+              <mxPoint x="1610" y="504" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -332,21 +332,21 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-68" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=0.49;entryY=-0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-31" target="o9fSKM3bV65_Al8GUseu-33">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1884" y="1070" />
+              <mxPoint x="1784" y="504" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-69" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=0.99;entryX=0.07;entryY=0.018;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-32" target="o9fSKM3bV65_Al8GUseu-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1714" y="1140" />
+              <mxPoint x="1614" y="574" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-70" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=0.99;entryX=0.886;entryY=0.018;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-33" target="o9fSKM3bV65_Al8GUseu-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1880" y="1140" />
+              <mxPoint x="1780" y="574" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -384,7 +384,7 @@
           <mxGeometry x="1773" y="60" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-81" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;覆盖判定与输出&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1640.5" y="1010" width="120" height="40" as="geometry" />
+          <mxGeometry x="1540.5" y="444" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

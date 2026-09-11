@@ -29,16 +29,16 @@
           <mxGeometry x="860" y="160" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-9" value="2. 循环: \(i = 1, \dots, n\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="895" y="230" width="170" height="70" as="geometry" />
+          <mxGeometry x="902" y="230" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-10" value="3. 计算 \(\alpha_i^- = \theta_i - \delta, \alpha_i^+ = \theta_i + \delta\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="853" y="370" width="207" height="30" as="geometry" />
+          <mxGeometry x="860" y="370" width="207" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-11" value="4. 将两条方向边界转成两个线性半平面，加入 \(H\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="853" y="430" width="207" height="50" as="geometry" />
+          <mxGeometry x="860" y="430" width="207" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-12" value="6. 令候选交点集 \(Q \leftarrow \emptyset\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="853" y="320" width="149" height="30" as="geometry" />
+          <mxGeometry x="860" y="320" width="149" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-13" value="7. 循环: 每一对不同半平面&#xa;边界 \((H_j, H_k)\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1201" y="70" width="209" height="80.5" as="geometry" />
@@ -141,15 +141,15 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.99;entryY=0.91;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-11" target="o9fSKM3bV65_Al8GUseu-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1100" y="460" />
-              <mxPoint x="1100" y="310" />
+              <mxPoint x="1107" y="460" />
+              <mxPoint x="1107" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-42" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.5;entryY=0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-9" target="o9fSKM3bV65_Al8GUseu-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="904" y="310" />
+              <mxPoint x="911" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>

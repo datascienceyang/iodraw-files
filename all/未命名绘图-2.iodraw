@@ -80,7 +80,7 @@
           <mxGeometry x="1769" y="731" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-26" value="27. \(m = 2\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1910" y="628" width="110" height="32" as="geometry" />
+          <mxGeometry x="1910" y="620" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-27" value="28. \(D \leftarrow \|V_1 - V_2\|_2\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1850" y="730" width="130" height="31" as="geometry" />

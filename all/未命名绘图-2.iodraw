@@ -68,7 +68,7 @@
           <mxGeometry x="1040" y="720" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-22" value="20. 返回 &#39;非空无界凸集&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="918" y="810" width="142" height="30" as="geometry" />
+          <mxGeometry x="1206" y="768" width="142" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-23" value="22. 对 \(Q\) 去重，并用 Andrew 单调链构造凸包 \(V=(V_1,\dots,V_m)\)&#xa;23. 按 \(affdim(\Omega_B)\) 标识 &#39;单点 / 线段 / 有界二维凸多边形&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1203.5" y="660" width="193" height="80" as="geometry" />
@@ -244,10 +244,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o9fSKM3bV65_Al8GUseu-55" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.5;entryY=0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-21" target="o9fSKM3bV65_Al8GUseu-22">
+        <mxCell id="o9fSKM3bV65_Al8GUseu-55" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=0.78;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-21" target="o9fSKM3bV65_Al8GUseu-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1060" y="790" />
+              <mxPoint x="1190" y="780" />
             </Array>
           </mxGeometry>
         </mxCell>

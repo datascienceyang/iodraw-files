@@ -17,13 +17,13 @@
           <mxGeometry x="1210" y="-5.5" width="310" height="505.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-5" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="851.5" y="191" width="283" height="368" as="geometry" />
+          <mxGeometry x="848.5" y="170" width="283" height="368" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-6" value="开始" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="965" y="20" width="55" height="34" as="geometry" />
+          <mxGeometry x="965.5" y="30" width="55" height="34" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-7" value="输入: 检测点 \(S_i=(x_i, y_i)\), 示向度 \(\theta_i (i=1,\dots,n)\), 误差半宽 \(\delta=1^\circ\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="863" y="104" width="260" height="56" as="geometry" />
+          <mxGeometry x="863" y="82" width="260" height="56" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-8" value="1. 平移并尺度归一化检测点坐标&#xa;令半平面集合 \(H \leftarrow \emptyset\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="890" y="220" width="200" height="90" as="geometry" />

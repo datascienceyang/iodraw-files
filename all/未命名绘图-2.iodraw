@@ -56,7 +56,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-17" value="11. \(Q \leftarrow Q \cup \{q\}\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1278" y="465" width="128" height="60.5" as="geometry" />
+          <mxGeometry x="1321" y="410" width="128" height="60.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-18" value="15. 由 \(H\) 求一个可行点 \(G_0\) (若存在)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1550" y="200.5" width="109" height="70" as="geometry" />

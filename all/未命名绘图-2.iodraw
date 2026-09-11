@@ -232,7 +232,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-53" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=-0.02;exitY=0.62;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-19" target="o9fSKM3bV65_Al8GUseu-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="980" y="690" />
+              <mxPoint x="960" y="700" />
             </Array>
           </mxGeometry>
         </mxCell>

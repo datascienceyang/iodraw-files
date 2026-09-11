@@ -98,7 +98,7 @@
           <mxGeometry x="1894" y="1021" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-32" value="36. 覆盖结论 \(\leftarrow\) &#39;存在直径为 \(D\) 的覆盖圆&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1759" y="1124" width="60" height="30" as="geometry" />
+          <mxGeometry x="1680" y="1124" width="139" height="36" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-33" value="38. 覆盖结论 \(\leftarrow\) &#39;直径为 \(D\) 的圆不能覆盖&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1934" y="1124" width="60" height="30" as="geometry" />

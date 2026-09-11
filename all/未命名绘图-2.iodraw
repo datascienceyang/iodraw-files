@@ -32,7 +32,7 @@
           <mxGeometry x="900" y="230" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-10" value="3. 计算 \(\alpha_i^- = \theta_i - \delta, \alpha_i^+ = \theta_i + \delta\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="851" y="360" width="207" height="30" as="geometry" />
+          <mxGeometry x="853" y="370" width="207" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-11" value="4. 将两条方向边界转成两个线性半平面，加入 \(H\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="920" y="510" width="135" height="88" as="geometry" />
@@ -130,7 +130,6 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-39" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-9" target="o9fSKM3bV65_Al8GUseu-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1020" y="310" />
               <mxPoint x="1130" y="330" />
             </Array>
           </mxGeometry>

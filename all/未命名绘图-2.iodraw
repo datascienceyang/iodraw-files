@@ -50,10 +50,13 @@
           <mxGeometry x="1341" y="275.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-16" value="10. \(q\) 满足 \(H\) 中全部约束?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1388" y="320" width="72" height="88.5" as="geometry" />
+          <mxGeometry x="1300" y="320" width="160" height="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="o9fSKM3bV65_Al8GUseu-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-17" target="o9fSKM3bV65_Al8GUseu-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-17" value="11. \(Q \leftarrow Q \cup \{q\}\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1398" y="480.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="1330" y="450" width="128" height="60.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-18" value="15. 由 \(H\) 求一个可行点 \(G_0\) (若存在)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1240" y="147.5" width="80" height="92.5" as="geometry" />

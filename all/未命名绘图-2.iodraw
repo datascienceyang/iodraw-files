@@ -82,8 +82,11 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-26" value="27. \(m = 2\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1910" y="628" width="110" height="32" as="geometry" />
         </mxCell>
+        <mxCell id="o9fSKM3bV65_Al8GUseu-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-27" target="o9fSKM3bV65_Al8GUseu-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-27" value="28. \(D \leftarrow \|V_1 - V_2\|_2\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1879" y="731" width="60" height="30" as="geometry" />
+          <mxGeometry x="1860" y="710" width="79" height="51" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-28" value="30. 用旋转卡壳推进对踵点，得到最远顶点对及直径 \(D\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1989" y="731" width="60" height="30" as="geometry" />

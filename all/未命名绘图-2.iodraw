@@ -95,7 +95,7 @@
           <mxGeometry x="1810" y="790" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-31" value="35. \(|R_{min} - D/2| \le \epsilon_{metric}\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="1021" width="234" height="30" as="geometry" />
+          <mxGeometry x="1690" y="1021" width="234" height="49" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-32" value="36. 覆盖结论 \(\leftarrow\) &#39;存在直径为 \(D\) 的覆盖圆&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1680" y="1124" width="139" height="36" as="geometry" />
@@ -104,7 +104,7 @@
           <mxGeometry x="1880" y="1124" width="114" height="56" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-34" value="40. 将 \(V, C^*, D, R_{min}\) 映射回原始米制坐标并返回" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1879" y="1204" width="60" height="30" as="geometry" />
+          <mxGeometry x="1810" y="1200" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-35" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1768" y="1284" width="55" height="34" as="geometry" />
@@ -324,7 +324,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-67" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=-0.02;exitY=0.71;entryX=0.49;entryY=-0.01;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-31" target="o9fSKM3bV65_Al8GUseu-32">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1789" y="1087" />
+              <mxPoint x="1700" y="1080" />
             </Array>
           </mxGeometry>
         </mxCell>

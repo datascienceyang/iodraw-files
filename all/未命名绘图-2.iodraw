@@ -14,7 +14,7 @@
           <mxGeometry x="853" y="640" width="448" height="286" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-4" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1156" y="40" width="334" height="400" as="geometry" />
+          <mxGeometry x="1140" y="40" width="314" height="400" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-5" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="840" y="142.5" width="280" height="357.5" as="geometry" />
@@ -41,22 +41,22 @@
           <mxGeometry x="860" y="320" width="149" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-13" value="7. 循环: 每一对不同半平面&#xa;边界 \((H_j, H_k)\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1201" y="70" width="209" height="80.5" as="geometry" />
+          <mxGeometry x="1185" y="70" width="209" height="80.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-14" value="8. 两条边界不平行?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1233" y="170" width="145" height="60" as="geometry" />
+          <mxGeometry x="1217" y="170" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-15" value="9. 求交点 \(q\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1266" y="250" width="79" height="32.75" as="geometry" />
+          <mxGeometry x="1250" y="250" width="79" height="32.75" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-16" value="10. \(q\) 满足 \(H\) 中全部约束?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="285.5" width="180" height="74.5" as="geometry" />
+          <mxGeometry x="1254" y="285.5" width="180" height="74.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-17" value="11. \(Q \leftarrow Q \cup \{q\}\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1316" y="390" width="128" height="30" as="geometry" />
+          <mxGeometry x="1300" y="390" width="128" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-18" value="15. 由 \(H\) 求一个&#xa;可行点 \(G_0\) (若存在)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1171" y="370" width="130" height="50" as="geometry" />
+          <mxGeometry x="1155" y="370" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-19" value="16. \(G_0\) 是否存在?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1001" y="660" width="119" height="55" as="geometry" />
@@ -166,14 +166,14 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-44" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.363;exitY=0.886;entryX=0;entryY=0;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-13" target="o9fSKM3bV65_Al8GUseu-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1260" y="160" />
+              <mxPoint x="1244" y="160" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-45" value="是" style="curved=1;startArrow=none;endArrow=block;entryX=0.49;entryY=-0.01;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-14" target="o9fSKM3bV65_Al8GUseu-15">
           <mxGeometry x="-0.3925" y="10" relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="1308" y="229" as="sourcePoint" />
+            <mxPoint x="1292" y="229" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -191,24 +191,24 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-48" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.98;entryY=0.71;rounded=0;exitX=1.009;exitY=0.605;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-17" target="o9fSKM3bV65_Al8GUseu-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1470" y="410" />
-              <mxPoint x="1460" y="170" />
+              <mxPoint x="1454" y="410" />
+              <mxPoint x="1444" y="170" />
             </Array>
-            <mxPoint x="1450" y="440" as="sourcePoint" />
+            <mxPoint x="1434" y="440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-49" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=-0.02;entryX=0.98;entryY=0.85;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-16" target="o9fSKM3bV65_Al8GUseu-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1410" y="270" />
-              <mxPoint x="1410" y="170" />
+              <mxPoint x="1394" y="270" />
+              <mxPoint x="1394" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-50" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0;entryX=0.616;entryY=0.878;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-14" target="o9fSKM3bV65_Al8GUseu-13">
           <mxGeometry x="-0.1073" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1350" y="160" />
+              <mxPoint x="1334" y="160" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -216,9 +216,9 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-51" value="否" style="curved=1;startArrow=none;endArrow=block;entryX=0.49;entryY=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-13" target="o9fSKM3bV65_Al8GUseu-18">
           <mxGeometry x="0.2532" y="10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1190" y="190" />
+              <mxPoint x="1174" y="190" />
             </Array>
-            <mxPoint x="1241.0555555555557" y="341.43055555555554" as="sourcePoint" />
+            <mxPoint x="1225.0555555555557" y="341.43055555555554" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>

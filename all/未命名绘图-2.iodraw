@@ -1,14 +1,14 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="5LgfkKr764bIVyxs2fOt">
-    <mxGraphModel dx="1045" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2902" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="o9fSKM3bV65_Al8GUseu-1" value="覆盖判定与输出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="867" y="1471" width="489" height="347" as="geometry" />
+          <mxGeometry x="1540" y="996" width="489" height="347" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-2" value="直径与最小包围圆计算" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="975" width="350" height="446" as="geometry" />
+          <mxGeometry x="1733" y="500" width="350" height="446" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-3" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="881" y="602" width="448" height="286" as="geometry" />
@@ -74,40 +74,40 @@
           <mxGeometry x="1203.5" y="660" width="193" height="80" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-24" value="24. \(m = 1\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1221" y="1000" width="30" height="30" as="geometry" />
+          <mxGeometry x="1894" y="525" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-25" value="25. \(D \leftarrow 0\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1096" y="1206" width="60" height="30" as="geometry" />
+          <mxGeometry x="1769" y="731" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-26" value="27. \(m = 2\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1276" y="1103" width="30" height="30" as="geometry" />
+          <mxGeometry x="1949" y="628" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-27" value="28. \(D \leftarrow \|V_1 - V_2\|_2\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1206" y="1206" width="60" height="30" as="geometry" />
+          <mxGeometry x="1879" y="731" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-28" value="30. 用旋转卡壳推进对踵点，得到最远顶点对及直径 \(D\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1316" y="1206" width="60" height="30" as="geometry" />
+          <mxGeometry x="1989" y="731" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-29" value="33. 枚举全部两点直径圆与非共线三点外接圆&#xa;仅保留覆盖全部顶点的候选圆" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1206" y="1286" width="60" height="30" as="geometry" />
+          <mxGeometry x="1879" y="811" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-30" value="34. 取候选圆中半径最小者，得到 \((C^*, R_{min})\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1206" y="1366" width="60" height="30" as="geometry" />
+          <mxGeometry x="1879" y="891" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-31" value="35. \(|R_{min} - D/2| \le \epsilon_{metric}\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1221" y="1496" width="30" height="30" as="geometry" />
+          <mxGeometry x="1894" y="1021" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-32" value="36. 覆盖结论 \(\leftarrow\) &#39;存在直径为 \(D\) 的覆盖圆&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1086" y="1599" width="60" height="30" as="geometry" />
+          <mxGeometry x="1759" y="1124" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-33" value="38. 覆盖结论 \(\leftarrow\) &#39;直径为 \(D\) 的圆不能覆盖&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1261" y="1599" width="60" height="30" as="geometry" />
+          <mxGeometry x="1934" y="1124" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-34" value="40. 将 \(V, C^*, D, R_{min}\) 映射回原始米制坐标并返回" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1206" y="1679" width="60" height="30" as="geometry" />
+          <mxGeometry x="1879" y="1204" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-35" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1095" y="1759" width="55" height="34" as="geometry" />
+          <mxGeometry x="1768" y="1284" width="55" height="34" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-6" target="o9fSKM3bV65_Al8GUseu-7">
           <mxGeometry relative="1" as="geometry">
@@ -266,35 +266,35 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-58" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=-0.02;exitY=0.74;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-24" target="o9fSKM3bV65_Al8GUseu-25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1126" y="1067" />
+              <mxPoint x="1799" y="592" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-59" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=0.98;entryX=0.48;entryY=0;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-24" target="o9fSKM3bV65_Al8GUseu-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1291" y="1067" />
+              <mxPoint x="1964" y="592" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-60" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=-0.02;exitY=0.97;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-26" target="o9fSKM3bV65_Al8GUseu-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1236" y="1169" />
+              <mxPoint x="1909" y="694" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-61" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=0.97;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-26" target="o9fSKM3bV65_Al8GUseu-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1346" y="1169" />
+              <mxPoint x="2019" y="694" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=-0.01;entryY=0.13;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-25" target="o9fSKM3bV65_Al8GUseu-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1126" y="1261" />
+              <mxPoint x="1799" y="786" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -306,7 +306,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-64" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=0.99;entryY=0.13;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-28" target="o9fSKM3bV65_Al8GUseu-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1346" y="1261" />
+              <mxPoint x="2019" y="786" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -323,28 +323,28 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-67" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=-0.02;exitY=0.71;entryX=0.49;entryY=-0.01;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-31" target="o9fSKM3bV65_Al8GUseu-32">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1116" y="1562" />
+              <mxPoint x="1789" y="1087" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-68" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=0.96;entryX=0.49;entryY=-0.01;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-31" target="o9fSKM3bV65_Al8GUseu-33">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1291" y="1562" />
+              <mxPoint x="1964" y="1087" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-69" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=0.99;entryX=-0.01;entryY=0.16;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-32" target="o9fSKM3bV65_Al8GUseu-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1116" y="1654" />
+              <mxPoint x="1789" y="1179" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-70" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=0.99;entryX=0.84;entryY=-0.01;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-33" target="o9fSKM3bV65_Al8GUseu-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1291" y="1654" />
+              <mxPoint x="1964" y="1179" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -365,7 +365,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-73" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=0.99;entryX=1.01;entryY=0.18;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-34" target="o9fSKM3bV65_Al8GUseu-35">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1236" y="1734" />
+              <mxPoint x="1909" y="1259" />
             </Array>
           </mxGeometry>
         </mxCell>

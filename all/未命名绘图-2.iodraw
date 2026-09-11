@@ -168,7 +168,6 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-44" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.385;exitY=0.925;entryX=0.22;entryY=0;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-13" target="o9fSKM3bV65_Al8GUseu-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1286" y="170.5" />
               <mxPoint x="1270" y="160" />
             </Array>
           </mxGeometry>
@@ -211,7 +210,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-50" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0;entryX=0.61;entryY=1.01;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-14" target="o9fSKM3bV65_Al8GUseu-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1400" y="160.5" />
+              <mxPoint x="1370" y="160" />
             </Array>
           </mxGeometry>
         </mxCell>

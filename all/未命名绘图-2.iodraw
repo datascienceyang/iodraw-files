@@ -47,7 +47,7 @@
           <mxGeometry x="1233" y="170" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-15" value="9. 求交点 \(q\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1271" y="170" width="69" height="35.5" as="geometry" />
+          <mxGeometry x="1271" y="247.25" width="79" height="35.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-16" value="10. \(q\) 满足 \(H\) 中全部约束?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1270" y="285.5" width="180" height="74.5" as="geometry" />

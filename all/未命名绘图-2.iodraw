@@ -97,11 +97,11 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-31" value="35. \(|R_{min} - D/2| \le \epsilon_{metric}\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1690" y="1021" width="234" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="o9fSKM3bV65_Al8GUseu-32" value="36. 覆盖结论 \(\leftarrow\) &#39;存在&#xa;直径为 \(D\) 的覆盖圆&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="o9fSKM3bV65_Al8GUseu-32" value="36. 覆盖结论 \(\leftarrow\) “存在&#xa;直径为 \(D\) 的覆盖圆”" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1640.5" y="1088" width="149.5" height="42" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-33" value="38. 覆盖结论 \(\leftarrow\) &#39;直径为 \(D\) 的圆不能覆盖&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="1124" width="114" height="56" as="geometry" />
+          <mxGeometry x="1860" y="1090" width="114" height="56" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-34" value="40. 将 \(V, C^*, D, R_{min}\) 映射&#xa;回原始米制坐标并返回" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1750" y="1200" width="180" height="50" as="geometry" />

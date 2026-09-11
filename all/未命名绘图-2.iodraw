@@ -11,7 +11,7 @@
           <mxGeometry x="1520" y="47.5" width="350" height="352.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-3" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="900" y="640" width="520" height="180" as="geometry" />
+          <mxGeometry x="940" y="519" width="520" height="180" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-4" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1140" y="40" width="320" height="400" as="geometry" />
@@ -59,19 +59,19 @@
           <mxGeometry x="1155" y="370" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-19" value="16. \(G_0\) 是否存在?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1001" y="660" width="119" height="55" as="geometry" />
+          <mxGeometry x="1041" y="539" width="119" height="55" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-20" value="17. 返回 &#39;空集&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="920" y="730" width="98" height="30" as="geometry" />
+          <mxGeometry x="960" y="609" width="98" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-21" value="19. \(rec(\Omega_B)\) 是否&#xa;含非零方向?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="720" width="160" height="70" as="geometry" />
+          <mxGeometry x="1080" y="599" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-22" value="20. 返回 &#39;非空无界凸集&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1206" y="768" width="142" height="30" as="geometry" />
+          <mxGeometry x="1246" y="647" width="142" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-23" value="22. 对 \(Q\) 去重，并用 Andrew 单调链构造凸包 \(V=(V_1,\dots,V_m)\)&#xa;23. 按 \(affdim(\Omega_B)\) 标识 &#39;单点 / 线段 / 有界二维凸多边形&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1203.5" y="660" width="193" height="90" as="geometry" />
+          <mxGeometry x="1243.5" y="539" width="193" height="90" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-24" value="24. \(m = 1\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1610" y="60" width="110" height="35" as="geometry" />
@@ -232,14 +232,14 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-53" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.5;entryY=0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-19" target="o9fSKM3bV65_Al8GUseu-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="980" y="701" />
+              <mxPoint x="1020" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-54" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=0.96;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-19" target="o9fSKM3bV65_Al8GUseu-21">
           <mxGeometry x="0.1985" y="14" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1110" y="701" />
+              <mxPoint x="1150" y="580" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -247,14 +247,14 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-55" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=0.78;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-21" target="o9fSKM3bV65_Al8GUseu-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1190" y="780" />
+              <mxPoint x="1230" y="659" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-56" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-21" target="o9fSKM3bV65_Al8GUseu-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1160" y="700" />
+              <mxPoint x="1200" y="579" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -378,7 +378,7 @@
           <mxGeometry x="1362" y="50" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-77" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;几何状态判定&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="914" y="655.5" width="110" height="40" as="geometry" />
+          <mxGeometry x="954" y="534.5" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-80" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;直径与最小&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;包围圆计算&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1773" y="60" width="150" height="40" as="geometry" />

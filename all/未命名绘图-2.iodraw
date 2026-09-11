@@ -32,13 +32,13 @@
           <mxGeometry x="900" y="230" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-10" value="3. 计算 \(\alpha_i^- = \theta_i - \delta, \alpha_i^+ = \theta_i + \delta\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="963" y="320" width="107" height="30" as="geometry" />
+          <mxGeometry x="867" y="408.5" width="207" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-11" value="4. 将两条方向边界转成两个线性半平面，加入 \(H\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="920" y="510" width="135" height="88" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-12" value="6. 令候选交点集 \(Q \leftarrow \emptyset\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="851" y="320" width="97" height="30" as="geometry" />
+          <mxGeometry x="851" y="320" width="149" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-13" value="7. 循环: 每一对不同半平面边界 \((H_j, H_k)\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1260" y="19.5" width="220" height="80.5" as="geometry" />

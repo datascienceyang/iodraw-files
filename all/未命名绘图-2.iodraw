@@ -41,7 +41,7 @@
           <mxGeometry x="853" y="463" width="97" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-13" value="7. 循环: 每一对不同半平面边界 \((H_j, H_k)\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1366" y="19.5" width="30" height="30" as="geometry" />
+          <mxGeometry x="1260" y="19.5" width="220" height="80.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-14" value="8. 两条边界不平行?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1356" y="147.5" width="30" height="30" as="geometry" />

@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="5LgfkKr764bIVyxs2fOt">
-    <mxGraphModel dx="1451" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="522" dy="311" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
           <mxGeometry x="1001" y="660" width="119" height="55" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-20" value="17. 返回 &#39;空集&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="850" y="870" width="98" height="30" as="geometry" />
+          <mxGeometry x="880" y="730" width="98" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-21" value="19. \(rec(\Omega_B)\) 是否&#xa;含非零方向?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1040" y="720" width="160" height="70" as="geometry" />
@@ -232,7 +232,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-53" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=-0.02;exitY=0.62;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-19" target="o9fSKM3bV65_Al8GUseu-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="918" y="731" />
+              <mxPoint x="930" y="710" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -377,9 +377,6 @@
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-77" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;几何状态判定&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="750" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="o9fSKM3bV65_Al8GUseu-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-20" target="o9fSKM3bV65_Al8GUseu-20">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

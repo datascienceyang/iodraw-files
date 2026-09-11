@@ -86,7 +86,7 @@
           <mxGeometry x="1810" y="660" width="130" height="31" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-28" value="30. 用旋转卡壳推进&#xa;对踵点，得到最远&#xa;顶点对及直径 \(D\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="660" width="121" height="61" as="geometry" />
+          <mxGeometry x="1950" y="660" width="121" height="61" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-29" value="33. 枚举全部两点直径圆&#xa;与非共线三点外接圆&#xa;仅保留覆盖全部顶点的候选圆" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1815" y="790" width="200" height="59" as="geometry" />
@@ -285,10 +285,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-61" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=0.97;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-26" target="o9fSKM3bV65_Al8GUseu-28">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.1761" y="8" relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="1990" y="630" />
               <mxPoint x="2019" y="660" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=-0.01;entryY=0.13;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-25" target="o9fSKM3bV65_Al8GUseu-29">

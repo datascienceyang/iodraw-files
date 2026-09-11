@@ -56,7 +56,7 @@
           <mxGeometry x="1316" y="390" width="128" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-18" value="15. 由 \(H\) 求一个&#xa;可行点 \(G_0\) (若存在)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1167" y="350" width="123" height="70" as="geometry" />
+          <mxGeometry x="1170" y="350" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-19" value="16. \(G_0\) 是否存在?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1111" y="640" width="119" height="55" as="geometry" />

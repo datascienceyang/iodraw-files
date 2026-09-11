@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="5LgfkKr764bIVyxs2fOt">
-    <mxGraphModel dx="1005" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="512" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,7 +89,7 @@
           <mxGeometry x="1989" y="700" width="131" height="61" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-29" value="33. 枚举全部两点直径圆与非共线三点外接圆&#xa;仅保留覆盖全部顶点的候选圆" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1879" y="811" width="60" height="30" as="geometry" />
+          <mxGeometry x="1879" y="811" width="171" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-30" value="34. 取候选圆中半径最小者，得到 \((C^*, R_{min})\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1879" y="891" width="60" height="30" as="geometry" />

@@ -47,7 +47,7 @@
           <mxGeometry x="1238" y="170" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-15" value="9. 求交点 \(q\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1276" y="262.25" width="69" height="35.5" as="geometry" />
+          <mxGeometry x="1276.5" y="250" width="69" height="35.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-16" value="10. \(q\) 满足 \(H\) 中全部约束?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1278" y="305.75" width="160" height="88.5" as="geometry" />
@@ -174,7 +174,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-45" value="是" style="curved=1;startArrow=none;endArrow=block;entryX=0.49;entryY=-0.01;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-14" target="o9fSKM3bV65_Al8GUseu-15">
-          <mxGeometry x="0.2274" y="10" relative="1" as="geometry">
+          <mxGeometry x="-0.3925" y="10" relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="1308" y="229" as="sourcePoint" />
             <mxPoint as="offset" />

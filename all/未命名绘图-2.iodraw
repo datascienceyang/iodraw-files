@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="5LgfkKr764bIVyxs2fOt">
-    <mxGraphModel dx="1039" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1039" dy="2279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,28 +17,28 @@
           <mxGeometry x="1140" y="40" width="320" height="400" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-5" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="840" y="142.5" width="280" height="357.5" as="geometry" />
+          <mxGeometry x="830" y="86.5" width="280" height="357.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-6" value="开始" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="952.5" y="30" width="55" height="34" as="geometry" />
+          <mxGeometry x="942.5" y="-26" width="55" height="34" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-7" value="输入: 检测点 \(S_i=(x_i, y_i)\), 示向度 \(\theta_i (i=1,\dots,n)\), 误差半宽 \(\delta=1^\circ\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="840" y="82" width="280" height="48" as="geometry" />
+          <mxGeometry x="830" y="26" width="280" height="48" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-8" value="1. 平移并尺度归一化检测点坐标&#xa;令半平面集合 \(H \leftarrow \emptyset\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="860" y="160" width="240" height="50" as="geometry" />
+          <mxGeometry x="850" y="104" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-9" value="2. 循环: \(i = 1, \dots, n\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="895" y="231.38" width="170" height="70" as="geometry" />
+          <mxGeometry x="885" y="175.38" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-10" value="3. 计算 \(\alpha_i^- = \theta_i - \delta, \alpha_i^+ = \theta_i + \delta\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="860" y="370" width="207" height="30" as="geometry" />
+          <mxGeometry x="850" y="314" width="207" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-11" value="4. 将两条方向边界转成两个线性半平面，加入 \(H\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="860" y="430" width="207" height="50" as="geometry" />
+          <mxGeometry x="850" y="374" width="207" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-12" value="6. 令候选交点集 \(Q \leftarrow \emptyset\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="860" y="320" width="149" height="30" as="geometry" />
+          <mxGeometry x="850" y="264" width="149" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-13" value="7. 循环: 每一对不同半平面&#xa;边界 \((H_j, H_k)\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1185" y="70" width="209" height="80.5" as="geometry" />
@@ -122,13 +122,13 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="980" y="230" as="targetPoint" />
+            <mxPoint x="970" y="174" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-39" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.637;exitY=0.888;entryX=0.5;entryY=0.01;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-9" target="o9fSKM3bV65_Al8GUseu-10">
           <mxGeometry x="-0.6712" y="-10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1130" y="330" />
+              <mxPoint x="1120" y="274" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -141,15 +141,15 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.99;entryY=0.91;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-11" target="o9fSKM3bV65_Al8GUseu-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1107" y="460" />
-              <mxPoint x="1107" y="310" />
+              <mxPoint x="1097" y="404" />
+              <mxPoint x="1097" y="254" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-42" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.5;entryY=0.01;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-9" target="o9fSKM3bV65_Al8GUseu-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="911" y="310" />
+              <mxPoint x="901" y="254" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -376,7 +376,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-74" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;半平面生成&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="220" width="90" height="40" as="geometry" />
+          <mxGeometry x="840" y="164" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-75" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;候选交点收集&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1362" y="50" width="110" height="40" as="geometry" />

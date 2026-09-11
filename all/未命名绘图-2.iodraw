@@ -83,7 +83,7 @@
           <mxGeometry x="1879" y="590" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-27" value="28. \(D \leftarrow \|V_1 - V_2\|_2\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1829" y="672" width="130" height="31" as="geometry" />
+          <mxGeometry x="1810" y="660" width="130" height="31" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-28" value="30. 用旋转卡壳推进&#xa;对踵点，得到最远&#xa;顶点对及直径 \(D\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1989" y="700" width="131" height="61" as="geometry" />
@@ -280,7 +280,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-60" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=-0.02;exitY=0.97;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-26" target="o9fSKM3bV65_Al8GUseu-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1894" y="640" />
+              <mxPoint x="1880" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>

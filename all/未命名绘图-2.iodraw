@@ -86,7 +86,7 @@
           <mxGeometry x="1810" y="660" width="130" height="31" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-28" value="30. 用旋转卡壳推进&#xa;对踵点，得到最远&#xa;顶点对及直径 \(D\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1950" y="707" width="131" height="61" as="geometry" />
+          <mxGeometry x="1960" y="660" width="121" height="61" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-29" value="33. 枚举全部两点直径圆&#xa;与非共线三点外接圆&#xa;仅保留覆盖全部顶点的候选圆" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1815" y="790" width="200" height="59" as="geometry" />

@@ -7,7 +7,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-1" value="覆盖判定与输出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1540" y="996" width="489" height="347" as="geometry" />
         </mxCell>
-        <mxCell id="o9fSKM3bV65_Al8GUseu-2" value="直径与最小包围圆计算" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="o9fSKM3bV65_Al8GUseu-2" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1733" y="500" width="350" height="446" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-3" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
@@ -83,7 +83,7 @@
           <mxGeometry x="1910" y="628" width="110" height="32" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-27" value="28. \(D \leftarrow \|V_1 - V_2\|_2\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1850" y="710" width="130" height="51" as="geometry" />
+          <mxGeometry x="1850" y="730" width="130" height="31" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-28" value="30. 用旋转卡壳推进对踵点，得到最远顶点对及直径 \(D\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1989" y="731" width="60" height="30" as="geometry" />
@@ -377,6 +377,9 @@
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-77" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;几何状态判定&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="750" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o9fSKM3bV65_Al8GUseu-80" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;直径与最小包围圆计算&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="565" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

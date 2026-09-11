@@ -103,8 +103,8 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-33" value="38. 覆盖结论 \(\leftarrow\) &#39;直径为 \(D\) 的圆不能覆盖&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1880" y="1124" width="114" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="o9fSKM3bV65_Al8GUseu-34" value="40. 将 \(V, C^*, D, R_{min}\) 映射回原始米制坐标并返回" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="1200" width="60" height="30" as="geometry" />
+        <mxCell id="o9fSKM3bV65_Al8GUseu-34" value="40. 将 \(V, C^*, D, R_{min}\) 映射&#xa;回原始米制坐标并返回" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1200" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-35" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1768" y="1284" width="55" height="34" as="geometry" />

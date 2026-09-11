@@ -211,7 +211,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-50" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0;entryX=0.616;entryY=0.878;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-14" target="o9fSKM3bV65_Al8GUseu-13">
           <mxGeometry x="-0.1073" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1360" y="160" />
+              <mxPoint x="1350" y="160" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>

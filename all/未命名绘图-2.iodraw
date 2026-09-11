@@ -44,7 +44,7 @@
           <mxGeometry x="1260" y="19.5" width="220" height="80.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-14" value="8. 两条边界不平行?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1356" y="147.5" width="30" height="30" as="geometry" />
+          <mxGeometry x="1356" y="147.5" width="94" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-15" value="9. 求交点 \(q\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1341" y="275.5" width="60" height="30" as="geometry" />
@@ -56,7 +56,7 @@
           <mxGeometry x="1398" y="480.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-18" value="15. 由 \(H\) 求一个可行点 \(G_0\) (若存在)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1246" y="147.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="1240" y="147.5" width="80" height="92.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-19" value="16. \(G_0\) 是否存在?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1111" y="665" width="30" height="30" as="geometry" />

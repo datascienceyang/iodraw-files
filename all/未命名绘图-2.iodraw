@@ -74,7 +74,7 @@
           <mxGeometry x="1203.5" y="660" width="193" height="80" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-24" value="24. \(m = 1\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1894" y="525" width="30" height="30" as="geometry" />
+          <mxGeometry x="1830" y="520" width="110" height="35" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-25" value="25. \(D \leftarrow 0\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1769" y="731" width="60" height="30" as="geometry" />

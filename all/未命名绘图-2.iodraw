@@ -65,13 +65,13 @@
           <mxGeometry x="1111" y="640" width="119" height="55" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-20" value="17. 返回 &#39;空集&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="888" y="870" width="60" height="30" as="geometry" />
+          <mxGeometry x="850" y="870" width="98" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-21" value="19. \(rec(\Omega_B)\) 是否含非零方向?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1020" y="720" width="176" height="78" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-22" value="20. 返回 &#39;非空无界凸集&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="998" y="830" width="60" height="70" as="geometry" />
+          <mxGeometry x="998" y="860" width="142" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-23" value="22. 对 \(Q\) 去重，并用 Andrew 单调链构造凸包 \(V=(V_1,\dots,V_m)\)&#xa;23. 按 \(affdim(\Omega_B)\) 标识 &#39;单点 / 线段 / 有界二维凸多边形&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1206" y="870" width="60" height="30" as="geometry" />

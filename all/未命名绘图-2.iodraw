@@ -62,7 +62,7 @@
           <mxGeometry x="1240" y="147.5" width="80" height="92.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-19" value="16. \(G_0\) 是否存在?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1111" y="665" width="30" height="30" as="geometry" />
+          <mxGeometry x="1111" y="665" width="119" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-20" value="17. 返回 &#39;空集&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="888" y="870" width="60" height="30" as="geometry" />

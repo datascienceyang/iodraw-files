@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="5LgfkKr764bIVyxs2fOt">
-    <mxGraphModel dx="806" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2904" dy="2220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="1620" y="996" width="360" height="224" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-2" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="507.5" width="350" height="352.5" as="geometry" />
+          <mxGeometry x="1520" y="47.5" width="350" height="352.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-3" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="900" y="640" width="520" height="180" as="geometry" />
@@ -74,25 +74,25 @@
           <mxGeometry x="1203.5" y="660" width="193" height="90" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-24" value="24. \(m = 1\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1830" y="520" width="110" height="35" as="geometry" />
+          <mxGeometry x="1610" y="60" width="110" height="35" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-25" value="25. \(D \leftarrow 0\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1762" y="605" width="78" height="30" as="geometry" />
+          <mxGeometry x="1542" y="145" width="78" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-26" value="27. \(m = 2\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="590" width="110" height="40" as="geometry" />
+          <mxGeometry x="1640" y="130" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-27" value="28. \(D \leftarrow \|V_1 - V_2\|_2\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1809" y="660" width="130" height="31" as="geometry" />
+          <mxGeometry x="1589" y="200" width="130" height="31" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-28" value="30. 用旋转卡壳推进&#xa;对踵点，得到最远&#xa;顶点对及直径 \(D\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1950" y="630" width="121" height="61" as="geometry" />
+          <mxGeometry x="1730" y="170" width="121" height="61" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-29" value="33. 枚举全部两点直径圆&#xa;与非共线三点外接圆&#xa;仅保留覆盖全部顶点的候选圆" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1809" y="710" width="200" height="60" as="geometry" />
+          <mxGeometry x="1589" y="250" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-30" value="34. 取候选圆中半径最小者，&#xa;得到 \((C^*, R_{min})\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="790" width="200" height="50" as="geometry" />
+          <mxGeometry x="1590" y="330" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-31" value="35. \(|R_{min} - D/2| \le \epsilon_{metric}\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1684" y="1021" width="234" height="49" as="geometry" />
@@ -266,28 +266,28 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-58" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1;entryX=0.49;entryY=0;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-24" target="o9fSKM3bV65_Al8GUseu-25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1810" y="560" />
+              <mxPoint x="1590" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-59" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=0.98;entryX=0.48;entryY=0;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-24" target="o9fSKM3bV65_Al8GUseu-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1964" y="592" />
+              <mxPoint x="1744" y="132" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-60" value="是" style="curved=1;startArrow=none;endArrow=block;entryX=0.49;entryY=0;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-26" target="o9fSKM3bV65_Al8GUseu-27">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1880" y="630" />
+              <mxPoint x="1660" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-61" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.49;entryY=0;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-26" target="o9fSKM3bV65_Al8GUseu-28">
           <mxGeometry x="-0.1761" y="8" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2010" y="610" />
+              <mxPoint x="1790" y="150" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -295,7 +295,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.448;exitY=1.004;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-25" target="o9fSKM3bV65_Al8GUseu-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1790" y="670" />
+              <mxPoint x="1570" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -307,7 +307,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-64" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=1;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-28" target="o9fSKM3bV65_Al8GUseu-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2030" y="710" />
+              <mxPoint x="1810" y="250" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -381,7 +381,7 @@
           <mxGeometry x="914" y="655.5" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-80" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;直径与最小&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;包围圆计算&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1993" y="520" width="150" height="40" as="geometry" />
+          <mxGeometry x="1773" y="60" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-81" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;覆盖判定与输出&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1640.5" y="1010" width="120" height="40" as="geometry" />

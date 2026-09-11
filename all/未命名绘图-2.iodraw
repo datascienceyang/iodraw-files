@@ -52,9 +52,6 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-16" value="10. \(q\) 满足 \(H\) 中全部约束?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1270" y="285.5" width="180" height="74.5" as="geometry" />
         </mxCell>
-        <mxCell id="o9fSKM3bV65_Al8GUseu-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-17" target="o9fSKM3bV65_Al8GUseu-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-17" value="11. \(Q \leftarrow Q \cup \{q\}\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1321" y="410" width="128" height="60.5" as="geometry" />
         </mxCell>
@@ -188,7 +185,7 @@
         <mxCell id="o9fSKM3bV65_Al8GUseu-47" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.38;entryY=0.01;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-16" target="o9fSKM3bV65_Al8GUseu-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1351" y="459.5" />
+              <mxPoint x="1351" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>

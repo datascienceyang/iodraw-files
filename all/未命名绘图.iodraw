@@ -192,7 +192,7 @@
           <mxGeometry x="640" y="460" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V0Krte26Vf5ABcSZ-Ht5-2" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; white-space-collapse: break-spaces;&quot;&gt;输入: 检测点 Si=(xi, yi), 示向度 θi (i=1,...,n), 误差半宽 δ=1°&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="640" y="560" width="100" height="100" as="geometry" />
+          <mxGeometry x="620" y="550" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

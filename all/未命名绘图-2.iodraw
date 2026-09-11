@@ -26,7 +26,7 @@
           <mxGeometry x="863" y="104" width="260" height="56" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-8" value="1. 平移并尺度归一化检测点坐标&#xa;令半平面集合 \(H \leftarrow \emptyset\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="890" y="220" width="230" height="90" as="geometry" />
+          <mxGeometry x="890" y="220" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-9" value="2. 循环: \(i = 1, \dots, n\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="978" y="360" width="30" height="30" as="geometry" />

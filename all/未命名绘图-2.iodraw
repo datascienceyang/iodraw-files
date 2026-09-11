@@ -53,7 +53,7 @@
           <mxGeometry x="1270" y="285.5" width="180" height="74.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-17" value="11. \(Q \leftarrow Q \cup \{q\}\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1316" y="380" width="128" height="60.5" as="geometry" />
+          <mxGeometry x="1316" y="390" width="128" height="60.5" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-18" value="15. 由 \(H\) 求一个可行点 \(G_0\) (若存在)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1550" y="200.5" width="109" height="70" as="geometry" />
@@ -183,9 +183,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-47" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.38;entryY=0.01;rounded=0;" edge="1" parent="1" source="o9fSKM3bV65_Al8GUseu-16" target="o9fSKM3bV65_Al8GUseu-17">
-          <mxGeometry x="0.3686" y="17" relative="1" as="geometry">
+          <mxGeometry x="-0.2527" y="8" relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint as="offset" />
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-48" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.98;entryY=0.71;rounded=0;" edge="1" parent="1" target="o9fSKM3bV65_Al8GUseu-13">

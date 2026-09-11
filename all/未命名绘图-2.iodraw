@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="5LgfkKr764bIVyxs2fOt">
-    <mxGraphModel dx="1187" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="726" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,7 +65,7 @@
           <mxGeometry x="850" y="870" width="98" height="30" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-21" value="19. \(rec(\Omega_B)\) 是否含非零方向?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="720" width="176" height="78" as="geometry" />
+          <mxGeometry x="1020" y="720" width="200" height="78" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-22" value="20. 返回 &#39;非空无界凸集&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="998" y="860" width="142" height="40" as="geometry" />

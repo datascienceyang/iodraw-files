@@ -29,7 +29,7 @@
           <mxGeometry x="847" y="100" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-9" value="2. 循环: \(i = 1, \dots, n\) ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="882" y="171.38" width="170" height="70" as="geometry" />
+          <mxGeometry x="882" y="190" width="170" height="51.38" as="geometry" />
         </mxCell>
         <mxCell id="o9fSKM3bV65_Al8GUseu-10" value="3. 计算 \(\alpha_i^- = \theta_i - \delta, \alpha_i^+ = \theta_i + \delta\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="847" y="310" width="207" height="30" as="geometry" />

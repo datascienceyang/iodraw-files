@@ -32,10 +32,10 @@
           <mxGeometry x="-40" y="6290" width="240" height="84" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-5" value="定义 &#xa; \(J(S_2)=\sup_{z_2}R_{\min}(F_1^+\cap W(S_2,z_2,\delta))\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-39.5" y="6486.5" width="239.5" height="102" as="geometry" />
+          <mxGeometry x="-39.5" y="6486.5" width="239.5" height="63.5" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-6" value="纯定位目标 &#xa; \(J^*=\inf_{S_2\in K_1^+}J(S_2)\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry y="6618" width="173" height="84" as="geometry" />
+          <mxGeometry x="-6.25" y="6580" width="173" height="84" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-7" value="候选域 &#xa; \(\mathcal C_\rho=\{S_2:J(S_2)\le(1+\rho)J^*\}\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="37" y="6793" width="233" height="84" as="geometry" />

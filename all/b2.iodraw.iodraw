@@ -203,6 +203,9 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="tJnXeRl6L2Tma3bIyJfe-44" value="几何建模与保证接收" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="5680" width="140" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

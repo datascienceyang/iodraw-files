@@ -29,7 +29,7 @@
           <mxGeometry x="-40" y="6190" width="246" height="84" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-4" value="多边形逼近 &#xa; \(P_N^-\subseteq F_1^+\subseteq P_N^+\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="26.5" y="6337" width="220" height="84" as="geometry" />
+          <mxGeometry x="-27.75" y="6310" width="297.75" height="84" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-5" value="定义 &#xa; \(J(S_2)=\sup_{z_2}R_{\min}(F_1^+\cap W(S_2,z_2,\delta))\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="26" y="6508" width="254" height="102" as="geometry" />

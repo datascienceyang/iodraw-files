@@ -11,7 +11,7 @@
           <mxGeometry x="384" y="7690" width="437" height="660" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-279" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="7270" width="437" height="380" as="geometry" />
+          <mxGeometry x="-47" y="7030" width="437" height="380" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-280" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="371" y="6590" width="437" height="640" as="geometry" />
@@ -56,16 +56,16 @@
           <mxGeometry x="430" y="6974" width="261" height="261" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-13" value="旋转卡壳求直径 \(D\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="467" y="7308" width="187" height="49" as="geometry" />
+          <mxGeometry x="70" y="7068" width="187" height="49" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-14" value="增量最小包围圆求 \(R_{\min}\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="433" y="7407" width="255" height="49" as="geometry" />
+          <mxGeometry x="36" y="7167" width="255" height="49" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-15" value="支撑点枚举核验" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="474" y="7506" width="172" height="49" as="geometry" />
+          <mxGeometry x="77" y="7266" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-16" value="输出固定 \(S_2\) 的 \(J\) 上下界" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="441" y="7604" width="239" height="49" as="geometry" />
+          <mxGeometry x="44" y="7364" width="239" height="49" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-17" value="纯定位参考点 \(S_{2,\mathrm{loc}}\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="462" y="7703" width="197" height="66" as="geometry" />

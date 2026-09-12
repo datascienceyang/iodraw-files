@@ -17,7 +17,7 @@
           <mxGeometry x="803" y="1120" width="437" height="520" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-276" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="473" y="730" width="437" height="520" as="geometry" />
+          <mxGeometry x="640" y="852" width="437" height="520" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-233" value="输入 \(S_1,\theta_1,\delta=1^\circ\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
           <mxGeometry x="745" y="200" width="258" height="66" as="geometry" />

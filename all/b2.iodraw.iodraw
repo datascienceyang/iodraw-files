@@ -209,14 +209,11 @@
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-45" value="鲁棒定位指标与候选域" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="310" y="6260" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tJnXeRl6L2Tma3bIyJfe-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tJnXeRl6L2Tma3bIyJfe-46" target="tJnXeRl6L2Tma3bIyJfe-47">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-46" value="空间搜索与角度证书" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="6800" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tJnXeRl6L2Tma3bIyJfe-47" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="6900" width="120" height="80" as="geometry" />
+        <mxCell id="tJnXeRl6L2Tma3bIyJfe-49" value="几何内核与最坏后验" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="7510" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

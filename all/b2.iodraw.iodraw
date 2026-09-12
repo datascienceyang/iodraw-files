@@ -1,11 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="_XE_IlLZ1jKQht1ca-1M">
-    <mxGraphModel dx="1760" dy="-5290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="3004" dy="-4550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-277" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-65" y="6049" width="305" height="391" as="geometry" />
+          <mxGeometry x="-65" y="6049" width="305" height="351" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-278" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="798" y="7410" width="437" height="660" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry x="-40" y="6290" width="240" height="84" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-5" value="定义 &#xa; \(J(S_2)=\sup_{z_2}R_{\min}(F_1^+\cap W(S_2,z_2,\delta))\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="26" y="6508" width="254" height="102" as="geometry" />
+          <mxGeometry x="-39.5" y="6486.5" width="254" height="102" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-6" value="纯定位目标 &#xa; \(J^*=\inf_{S_2\in K_1^+}J(S_2)\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="67" y="6659" width="173" height="84" as="geometry" />

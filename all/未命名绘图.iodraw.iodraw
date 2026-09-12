@@ -14,10 +14,10 @@
           <mxGeometry x="847" y="3974" width="437" height="520" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-280" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="408.5" y="4204" width="437" height="670" as="geometry" />
+          <mxGeometry x="440" y="3960" width="437" height="670" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-276" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="3530" width="437" height="520" as="geometry" />
+          <mxGeometry x="500" y="3530" width="437" height="420" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-281" value="输入 S₁, θ₁, δ=1°" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="638" y="3100" width="183" height="49" as="geometry" />

@@ -1,11 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="_XE_IlLZ1jKQht1ca-1M">
-    <mxGraphModel dx="1741" dy="-3640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2568" dy="-4809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-277" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440.5" y="5609" width="437" height="391" as="geometry" />
+          <mxGeometry x="-66" y="6049" width="437" height="391" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-278" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="384" y="7690" width="437" height="660" as="geometry" />
@@ -20,16 +20,16 @@
           <mxGeometry x="408" y="6009.5" width="437" height="560.5" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-1" value="输入 \(S_1,\theta_1,\delta=1^\circ\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="515" y="5530" width="258" height="66" as="geometry" />
+          <mxGeometry x="8.5" y="5970" width="258" height="66" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-2" value="构建 \(F_1^{\mathrm{ex}},\ F_1^+\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="521" y="5646" width="244" height="66" as="geometry" />
+          <mxGeometry x="14.5" y="6086" width="244" height="66" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-3" value="保证接收域 &#xa; \(K_1^+:\ \sup_{G\in F_1^+}\|S_2-G\|_2\le 1000\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="521" y="5763" width="246" height="84" as="geometry" />
+          <mxGeometry x="14.5" y="6203" width="246" height="84" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-4" value="多边形逼近 &#xa; \(P_N^-\subseteq F_1^+\subseteq P_N^+\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="533" y="5897" width="220" height="84" as="geometry" />
+          <mxGeometry x="26.5" y="6337" width="220" height="84" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-5" value="定义 &#xa; \(J(S_2)=\sup_{z_2}R_{\min}(F_1^+\cap W(S_2,z_2,\delta))\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="516" y="6031" width="254" height="102" as="geometry" />
@@ -204,7 +204,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-44" value="几何建模与保证接收" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="370" y="5680" width="140" height="40" as="geometry" />
+          <mxGeometry x="-136.5" y="6120" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-45" value="鲁棒定位指标与候选域" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="310" y="6260" width="150" height="40" as="geometry" />

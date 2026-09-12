@@ -1,9 +1,200 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="_XE_IlLZ1jKQht1ca-1M">
-    <mxGraphModel dx="1536" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1536" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-95" value="5. 认证与输出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4667" y="307" width="1198" height="397" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-96" value="4. 几何内核与最坏后验" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3632" y="357" width="985" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-97" value="3. 空间搜索与角度证书" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2407" y="260" width="1155" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-98" value="2. 鲁棒定位指标与候选域" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="344" width="1142" height="319" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-99" value="1. 几何建模与保证接收" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="441" width="1145" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-100" value="输入 $S_1,\theta_1,\delta$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="493" width="254" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-101" value="构建 $F_1^{\rm ex}, F_1^+$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="349" y="493" width="258" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-102" value="保证接收域 $K_1^+$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="657" y="493" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-103" value="多边形逼近 $P_N^-\subseteq F_1^+\subseteq P_N^+$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="911" y="476" width="228" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-104" value="定义 $J(S_2)=\sup_{z_2}R_{\min}(F_1^+\cap W(S_2,z_2,\delta))$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="467" width="257" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-105" value="纯定位目标 $J^*=\inf_{S_2\in K_1^+}J(S_2)$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1547" y="476" width="181" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-106" value="候选域 $\mathcal C_\rho=\{S_2:J(S_2)\le(1+\rho)J^*\}$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1778" y="485" width="246" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-107" value="推荐点 $S_2^{\rm rec}(\rho)\in\arg\min_{\mathcal C_\rho}\|S_2-S_1\|$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2074" y="383" width="257" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-108" value="三层搜索: 粗搜 $K_1^+$ → 5m 候选 → 细复核" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2432" y="392" width="252" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-109" value="连续角度证书: $L_k\le J\le U_k$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2734" y="392" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-110" value="自适应二分细化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3034" y="401" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-111" value="$\Delta_\theta\le\varepsilon_\theta$?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3276" y="295" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-112" value="旋转卡壳求直径 $D$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3657" y="401" width="204" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-113" value="增量最小包围圆求 $R_{\min}$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3911" y="392" width="188" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-114" value="支撑点枚举核验" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4149" y="401" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-115" value="输出固定 $S_2$ 的 $J$ 上下界" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4372" y="392" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-116" value="纯定位参考点 $S_{2,\rm loc}$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4692" y="392" width="231" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-117" value="推荐点 $S_2^{\rm rec}$" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4973" y="401" width="227" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-118" value="$U_{\rm rec}\le(1+\rho)L_{\rm loc}$?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="5250" y="385" width="266" height="266" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-119" value="输出 $S_2^{\rm rec}$, 满足 5% 预算" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5587" y="485" width="254" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-120" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-100" target="ulvBigd-cj4FRAXkyN0Y-101">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-121" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-101" target="ulvBigd-cj4FRAXkyN0Y-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-122" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-102" target="ulvBigd-cj4FRAXkyN0Y-103">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-123" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-104" target="ulvBigd-cj4FRAXkyN0Y-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-124" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-105" target="ulvBigd-cj4FRAXkyN0Y-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-125" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-106" target="ulvBigd-cj4FRAXkyN0Y-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2049" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-108" target="ulvBigd-cj4FRAXkyN0Y-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-127" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-109" target="ulvBigd-cj4FRAXkyN0Y-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-128" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=0;entryX=0;entryY=0.28;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-110" target="ulvBigd-cj4FRAXkyN0Y-111">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3241" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-129" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.7;entryX=0.76;entryY=0.99;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-111" target="ulvBigd-cj4FRAXkyN0Y-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3241" y="492" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-130" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-112" target="ulvBigd-cj4FRAXkyN0Y-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-131" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-113" target="ulvBigd-cj4FRAXkyN0Y-114">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-132" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-114" target="ulvBigd-cj4FRAXkyN0Y-115">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-133" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-116" target="ulvBigd-cj4FRAXkyN0Y-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-134" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.21;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-117" target="ulvBigd-cj4FRAXkyN0Y-118">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5225" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-135" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.79;entryX=0.72;entryY=1;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-118" target="ulvBigd-cj4FRAXkyN0Y-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5225" y="610" />
+              <mxPoint x="2049" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-136" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-118" target="ulvBigd-cj4FRAXkyN0Y-119">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-137" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-103" target="ulvBigd-cj4FRAXkyN0Y-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-138" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-107" target="ulvBigd-cj4FRAXkyN0Y-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-139" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-111" target="ulvBigd-cj4FRAXkyN0Y-112">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-140" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-115" target="ulvBigd-cj4FRAXkyN0Y-116">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

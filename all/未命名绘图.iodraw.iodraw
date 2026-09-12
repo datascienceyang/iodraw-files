@@ -4,6 +4,190 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-233" value="输入 \(S_1,\theta_1,\delta=1^\circ\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="200" width="258" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-234" value="构建 \(F_1^{\mathrm{ex}},\ F_1^+\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="751" y="316" width="244" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-235" value="保证接收域 &#xa; \(K_1^+:\ \sup_{G\in F_1^+}\|S_2-G\|_2\le 1000\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="751" y="433" width="246" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-236" value="多边形逼近 &#xa; \(P_N^-\subseteq F_1^+\subseteq P_N^+\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="763" y="567" width="220" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-237" value="定义 &#xa; \(J(S_2)=\sup_{z_2}R_{\min}(F_1^+\cap W(S_2,z_2,\delta))\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="746" y="701" width="254" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-238" value="纯定位目标 &#xa; \(J^*=\inf_{S_2\in K_1^+}J(S_2)\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="787" y="852" width="173" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-239" value="候选域 &#xa; \(\mathcal C_\rho=\{S_2:J(S_2)\le(1+\rho)J^*\}\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="757" y="986" width="233" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-240" value="推荐点 &#xa; \(S_2^{\mathrm{rec}}(\rho)\in\arg\min_{\mathcal C_\rho}\|S_2-S_1\|\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="664" y="1120" width="252" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-241" value="三层搜索: 粗搜 \(K_1^+\) &amp;rarr; 5m 候选 &amp;rarr; 细复核" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="682" y="1272" width="217" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-242" value="连续角度证书 \(L_k\le J\le U_k\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="673" y="1406" width="236" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-243" value="自适应二分细化" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="1522" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-244" value="\(\Delta_\theta\le\varepsilon_\theta\)?" style="rhombus;strokeWidth=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1644" width="261" height="261" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-245" value="旋转卡壳求直径 \(D\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="697" y="1978" width="187" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-246" value="增量最小包围圆求 \(R_{\min}\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="663" y="2077" width="255" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-247" value="支撑点枚举核验" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="704" y="2176" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-248" value="输出固定 \(S_2\) 的 \(J\) 上下界" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="671" y="2274" width="239" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-249" value="纯定位参考点 \(S_{2,\mathrm{loc}}\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="692" y="2373" width="197" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-250" value="推荐点 \(S_2^{\mathrm{rec}}\)" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="664" y="2490" width="254" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-251" value="\(U_{\mathrm{rec}}\le(1+\rho)L_{\mathrm{loc}}\)?" style="rhombus;strokeWidth=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="741" y="2588" width="265" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-252" value="输出 \(S_2^{\mathrm{rec}}\), 满足 \(5\%\) 预算" style="whiteSpace=wrap;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="749" y="2926" width="249" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-253" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="846" y="3042" width="55" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-254" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-233" target="ulvBigd-cj4FRAXkyN0Y-234">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-255" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-234" target="ulvBigd-cj4FRAXkyN0Y-235">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-256" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-235" target="ulvBigd-cj4FRAXkyN0Y-236">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-257" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-236" target="ulvBigd-cj4FRAXkyN0Y-237">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-258" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-237" target="ulvBigd-cj4FRAXkyN0Y-238">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-259" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-238" target="ulvBigd-cj4FRAXkyN0Y-239">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-260" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.28;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-239" target="ulvBigd-cj4FRAXkyN0Y-240">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="791" y="1095" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-261" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-240" target="ulvBigd-cj4FRAXkyN0Y-241">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-262" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-241" target="ulvBigd-cj4FRAXkyN0Y-242">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-263" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-242" target="ulvBigd-cj4FRAXkyN0Y-243">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-264" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.46;exitY=1;entryX=0.46;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-243" target="ulvBigd-cj4FRAXkyN0Y-244">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="776" y="1607" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-265" value="否" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.7;exitY=0;entryX=0.66;entryY=1;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-244" target="ulvBigd-cj4FRAXkyN0Y-243">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="859" y="1607" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-266" value="是" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-244" target="ulvBigd-cj4FRAXkyN0Y-245">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-267" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-245" target="ulvBigd-cj4FRAXkyN0Y-246">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-268" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-246" target="ulvBigd-cj4FRAXkyN0Y-247">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-269" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-247" target="ulvBigd-cj4FRAXkyN0Y-248">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-270" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-248" target="ulvBigd-cj4FRAXkyN0Y-249">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-271" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-249" target="ulvBigd-cj4FRAXkyN0Y-250">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-272" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=0.99;entryX=0.24;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-250" target="ulvBigd-cj4FRAXkyN0Y-251">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="791" y="2563" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-273" value="否" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.76;exitY=0;entryX=0.72;entryY=1;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-251" target="ulvBigd-cj4FRAXkyN0Y-239">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="956" y="2563" />
+              <mxPoint x="956" y="1095" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-274" value="是" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-251" target="ulvBigd-cj4FRAXkyN0Y-252">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulvBigd-cj4FRAXkyN0Y-275" value="" style="curved=1;startArrow=none;endArrow=block;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ulvBigd-cj4FRAXkyN0Y-252" target="ulvBigd-cj4FRAXkyN0Y-253">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

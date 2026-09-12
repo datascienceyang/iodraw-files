@@ -8,13 +8,13 @@
           <mxGeometry x="-66" y="6049" width="437" height="391" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-278" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="7610" width="437" height="660" as="geometry" />
+          <mxGeometry x="798" y="7410" width="437" height="660" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-279" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="6860" width="437" height="380" as="geometry" />
+          <mxGeometry x="534" y="6960" width="437" height="380" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-280" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="371" y="6590" width="437" height="640" as="geometry" />
+          <mxGeometry x="995" y="6690" width="437" height="640" as="geometry" />
         </mxCell>
         <mxCell id="ulvBigd-cj4FRAXkyN0Y-276" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="408" y="6009.5" width="437" height="560.5" as="geometry" />
@@ -44,43 +44,43 @@
           <mxGeometry x="434" y="6450" width="252" height="102" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-9" value="三层搜索: 粗搜 \(K_1^+\) &amp;rarr; 5m 候选 &amp;rarr; 细复核" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="452" y="6602" width="217" height="84" as="geometry" />
+          <mxGeometry x="1076" y="6702" width="217" height="84" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-10" value="连续角度证书 \(L_k\le J\le U_k\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="443" y="6736" width="236" height="66" as="geometry" />
+          <mxGeometry x="1067" y="6836" width="236" height="66" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-11" value="自适应二分细化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="475" y="6852" width="172" height="49" as="geometry" />
+          <mxGeometry x="1099" y="6952" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-12" value="\(\Delta_\theta\le\varepsilon_\theta\)?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="430" y="6974" width="261" height="261" as="geometry" />
+          <mxGeometry x="1054" y="7074" width="261" height="261" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-13" value="旋转卡壳求直径 \(D\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="27" y="6898" width="187" height="49" as="geometry" />
+          <mxGeometry x="651" y="6998" width="187" height="49" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-14" value="增量最小包围圆求 \(R_{\min}\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-7" y="6997" width="255" height="49" as="geometry" />
+          <mxGeometry x="617" y="7097" width="255" height="49" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-15" value="支撑点枚举核验" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="34" y="7096" width="172" height="49" as="geometry" />
+          <mxGeometry x="658" y="7196" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-16" value="输出固定 \(S_2\) 的 \(J\) 上下界" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1" y="7194" width="239" height="49" as="geometry" />
+          <mxGeometry x="625" y="7294" width="239" height="49" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-17" value="纯定位参考点 \(S_{2,\mathrm{loc}}\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="462" y="7703" width="197" height="66" as="geometry" />
+          <mxGeometry x="876" y="7423" width="197" height="66" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-18" value="推荐点 \(S_2^{\mathrm{rec}}\)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="434" y="7820" width="254" height="49" as="geometry" />
+          <mxGeometry x="848" y="7540" width="254" height="49" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-19" value="\(U_{\mathrm{rec}}\le(1+\rho)L_{\mathrm{loc}}\)?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="511" y="7918" width="265" height="265" as="geometry" />
+          <mxGeometry x="925" y="7638" width="265" height="265" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-20" value="输出 \(S_2^{\mathrm{rec}}\), 满足 \(5\%\) 预算" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="519" y="8256" width="249" height="66" as="geometry" />
+          <mxGeometry x="933" y="7976" width="249" height="66" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-21" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="616" y="8372" width="55" height="34" as="geometry" />
+          <mxGeometry x="1030" y="8092" width="55" height="34" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="tJnXeRl6L2Tma3bIyJfe-1" target="tJnXeRl6L2Tma3bIyJfe-2">
           <mxGeometry relative="1" as="geometry">
@@ -137,14 +137,14 @@
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.46;exitY=1;entryX=0.46;entryY=0;rounded=0;" edge="1" parent="1" source="tJnXeRl6L2Tma3bIyJfe-11" target="tJnXeRl6L2Tma3bIyJfe-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="546" y="6937" />
+              <mxPoint x="1170" y="7037" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-33" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0;entryX=0.66;entryY=1;rounded=0;" edge="1" parent="1" source="tJnXeRl6L2Tma3bIyJfe-12" target="tJnXeRl6L2Tma3bIyJfe-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="629" y="6937" />
+              <mxPoint x="1253" y="7037" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -181,7 +181,7 @@
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.24;entryY=0;rounded=0;" edge="1" parent="1" source="tJnXeRl6L2Tma3bIyJfe-18" target="tJnXeRl6L2Tma3bIyJfe-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="561" y="7893" />
+              <mxPoint x="975" y="7613" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -210,13 +210,13 @@
           <mxGeometry x="310" y="6260" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-46" value="空间搜索与角度证书" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="220" y="6800" width="140" height="40" as="geometry" />
+          <mxGeometry x="844" y="6900" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-49" value="几何内核与最坏后验" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="7100" width="140" height="40" as="geometry" />
+          <mxGeometry x="434" y="7200" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tJnXeRl6L2Tma3bIyJfe-50" value="认证与输出" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="280" y="8230" width="90" height="40" as="geometry" />
+          <mxGeometry x="694" y="7950" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
